@@ -1,0 +1,43 @@
+.container {
+  height: 10vh;
+  width: 100%;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.title {
+  display: flex;
+  align-items: center;
+  color: var(--sixth-color);
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.login {
+  padding-right: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.AppLogo {
+  height: 40px;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .AppLogo {
+    animation: AppLogoSpin infinite 20s linear;
+  }
+}
+
+@keyframes AppLogoSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

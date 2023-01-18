@@ -1,0 +1,84 @@
+.card {
+  padding: 1rem;
+  border: 1px grey solid;
+  border-radius: 25px;
+  background-color: white;
+  border-bottom: 10px solid rgb(0, 0, 0, 0.5);
+  border-right: 7px solid rgb(0, 0, 0, 0.5);
+  margin-top: 2rem;
+  width: 60vw;
+}
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.cardBlue {
+  border-bottom: 10px solid rgb(0, 0, 255, 0.5);
+  border-right: 7px solid rgb(0, 0, 255, 0.5);
+}
+.cardRed {
+  border-bottom: 10px solid rgb(255, 0, 0, 0.5);
+  border-right: 7px solid rgb(255, 0, 0, 0.5);
+}
+.cardPurple {
+  border-bottom: 10px solid rgb(128, 0, 128, 0.5);
+  border-right: 7px solid rgb(128, 0, 128, 0.5);
+}
+.cardGreen {
+  border-bottom: 10px solid rgb(0, 255, 0, 0.5);
+  border-right: 7px solid rgb(0, 255, 0, 0.5);
+}
+.cardOlive {
+  border-bottom: 10px solid rgb(0, 128, 0, 0.5);
+  border-right: 7px solid rgb(0, 128, 0, 0.5);
+}
+.cardGreenBlue {
+  border-bottom: 10px solid rgb(0, 128, 128, 0.5);
+  border-right: 7px solid rgb(0, 128, 128, 0.5);
+}
+
+.card h3 {
+  text-decoration: underline;
+  margin: 1rem;
+}
+
+.card h2 {
+  border: 3px black solid;
+  padding: 0.5rem;
+}
+
+.fontColorRed {
+  color: red;
+}
+
+.fontColorPurple {
+  color: purple;
+}
+.fontColorBlue {
+  color: blue;
+}
+.fontColorGreen {
+  color: rgb(0, 255, 0);
+}
+
+.fontColorOlive {
+  color: rgb(0, 128, 0);
+}
+.fontColorGreenBlue {
+  color: rgb(0, 128, 128);
+}
+
+.sizeFont {
+  font-size: 2rem;
+}
+.sizeFont2 {
+  font-size: 1.5rem;
+}
+@media (max-width: 650px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}

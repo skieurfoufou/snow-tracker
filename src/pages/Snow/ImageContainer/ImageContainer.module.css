@@ -1,0 +1,22 @@
+.img_container {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img_container img {
+  margin-right: 1rem;
+  /* border: 2px solid var(--secondary-color); */
+  border-radius: 25px;
+  height: 30vh;
+}
+.img1 {
+  border-left: 7px solid var(--secondary-color);
+  border-bottom: 10px solid var(--secondary-color);
+}
+
+.img2 {
+  border-right: 7px solid var(--secondary-color);
+  border-bottom: 10px solid var(--secondary-color);
+}

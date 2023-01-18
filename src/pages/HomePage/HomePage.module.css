@@ -1,0 +1,22 @@
+.container {
+  height: 100vh;
+  background-image: url("https://plus.unsplash.com/premium_photo-1669907525470-586042acc33c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHNraXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  color: var(--sixth-color);
+  padding-top: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--fifth-color);
+}
+
+.link:hover {
+  color: var(--secondary-color);
+  background-color: var(--sixth-color);
+}

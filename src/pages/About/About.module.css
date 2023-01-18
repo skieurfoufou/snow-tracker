@@ -1,0 +1,65 @@
+.container {
+  text-align: center;
+  margin: 10rem auto;
+  max-width: 40rem;
+  border: 1px solid var(--fourth-color);
+  border-radius: 12px;
+  padding: 2rem;
+  background-color: var(--secondary-color);
+}
+.socialNetwork {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.a {
+  min-width: 10vw;
+  height: 10vh;
+  font-size: 1.3rem;
+  color: var(--fourth-color);
+  background: var(--primary-color);
+  border-radius: 25px;
+  /* display: inline-block; */
+  padding: 0.9rem 0.7rem;
+  text-decoration: none;
+  box-shadow: 0 1px 3px #333;
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: 0.2s ease;
+  transition: scale 0.1s;
+  animation: pop 1s forwards;
+  display: flex;
+  flex-direction: column;
+}
+
+.ul {
+  display: flex;
+  text-align: center;
+  min-width: 35vw;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.li {
+}
+.a:hover {
+  background: var(--third-color);
+  color: var(--font-color-1);
+}
+
+.i {
+  color: var(--font-color-1);
+  margin-top: 1rem;
+}
+
+.i svg {
+  width: 50px;
+  height: 50px;
+}
+
+@keyframes pop {
+  to {
+    transform: scaleY(1);
+  }
+}
